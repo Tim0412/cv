@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400');
+
+
+/* 讓所有大小的計算以border-box為基礎 */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    padding: 0px;
+    margin: 0px;
+    background-color: blue
+}
+
+.cv {
+    width: 800px;
+    background-color: white;
+    margin: 100px auto;
+    border: 1px solid green;
+}
+
+header,
+.intro,
+.experience-list,
+footer {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+sectino-title {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/*note header*/
+
+header {
+    background-color: #ccc;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.name {
+    font-size: 50px;
+    letter-spacing: 8px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.current-job-title {
+    margin: 0;
+}
+
+. .name > p {
+    margin-top: 60;
+}
+
+
+
+
+
+
+/* note experience */
+
+.experience {
+    border-bottom: 1px solid #333;
+}
+
+.experience:last-child {
+    border-bottom: none;
+}
+
+footer {
+    padding-bottom: 50px;
+    padding-top: 25px;
+    background-color: #ccc;
+}
